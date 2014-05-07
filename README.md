@@ -1,4 +1,4 @@
-items
-=====
+ITEMS
+========
 
-ITEMS - Interactive Teaching and Education Management System
+Interactive Teaching and Education Management System
