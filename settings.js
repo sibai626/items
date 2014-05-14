@@ -9,7 +9,7 @@ module.exports = {
         user: 'items',
         password: 'items',
         database:'items',
-        port: 3316
+        port: 3306
     },
     redis:{
         host: 'localhost',
