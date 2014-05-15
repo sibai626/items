@@ -1,0 +1,76 @@
+<% layout('layout') -%>
+
+<!--
+<div class="main-frame" >
+    <div data-view-id="manager" >
+    </div>
+</div>
+-->
+
+<section>
+    <h2>我被挡住了1</h2>
+    <h2>第一步，选择试题属性</h2>
+    <form action="" method="post">
+        <ul>
+            <li>
+                <span>考区</span>
+                <select name="region">
+                    <option value="0">请选择</option>
+                    <option value="1">北京</option>
+                </select>
+            </li>
+            <li>
+                <span>题型</span>
+                <select name="type">
+                    <option value="0">请选择</option>
+                    <option value="1">阅读</option>
+                    <option value="2">听力</option>
+                    <option value="3">口语</option>
+                    <option value="4">写作</option>
+                </select>
+            </li>
+            <li>
+                <span>风险</span>
+                <select name="risk">
+                    <option value="0">无</option>
+                    <option value="1">有</option>
+                </select>
+            </li>
+            <li>
+                <span>年份</span>
+                <select name="risk">
+                    <option value="0">请选择</option>
+                    <option value="1">2010</option>
+                    <option value="2">2011</option>
+                    <option value="3">2012</option>
+                    <option value="4">2013</option>
+                    <option value="5">2014</option>
+                </select>
+            </li>
+            <li>
+                <span>难度</span>
+                <select name="difficulty">
+                    <option value="0">请选择</option>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+                    <option value="4">D</option>
+                </select>
+            </li>
+            <li>
+                <span>私有</span>
+                <select id="private" name="private">
+                    <option value="0">否</option>
+                    <option value="1">是</option>
+                </select>
+            </li>
+            <li>
+                <span>知识点</span>
+                <a href="javascript:void(0)">选择</a>
+            </li>
+        </ul>
+        <input type="submit" name="submit" value="保存并下一步"/>
+        <a href="javascript:void(0)">取消</a>
+
+    </form>
+</section>
