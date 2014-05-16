@@ -30,12 +30,15 @@ module.exports = function(app) {
         input.page = page;
         var user = req.user;
         page.user = user;
-        DictService.listTargets(function(err, targets ){
-            page.targets = targets;
-            console.error(input);
-            console.log(input);
-            res.render('dict', input);
-        });
+        page.targets = [];
+        console.log(input);
+        res.render('dict', input);
+//        DictService.listTargets(function(err, targets ){
+//            page.targets = targets;
+//            console.error(input);
+//            console.log(input);
+//            res.render('dict', input);
+//        });
     };
     var filterTargetWords = function(req, res, next) {
         if(!req.query.target){
