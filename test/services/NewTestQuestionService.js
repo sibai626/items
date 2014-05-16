@@ -1,4 +1,4 @@
-var HelloService = require('../../source/services/HelloService');
+var HelloService = require('../../source/services/NewTestQuestionService');
 var logger = require('../../source/commons/logging').logger;
 
 exports.setUp = function(done){
@@ -17,7 +17,7 @@ exports.hello_stepOne = function(test){
         }
         else{
             test.ok(lists);
-            test.equal(lists.length, 8);
+            test.equal(lists.length, 15);
             console.debug('Succeed to list all lists: ' + JSON.stringify(lists));
         }
         test.done();
